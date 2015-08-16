@@ -97,7 +97,7 @@ The return type of command method should be Future that indicates that a command
 
 ## Reactive Execution
 
-To performe "Reactive Execution" you should return an instance of `ObservableResult` in your command method as in the exapmple below:
+To perform "Reactive Execution" you should return an instance of `ObservableResult` in your command method as in the exapmple below:
 
 ```java
     @HystrixCommand
